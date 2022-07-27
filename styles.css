@@ -228,6 +228,17 @@ span{
     margin: 5px 0 0;
 }
 
+a.footer{
+    text-decoration: none;
+    color: black;
+}
+
+a.footer:hover{
+    font-size: 4vh;
+    color: red;
+    background-color: black;
+}
+
 /* SMARTPHONE */
 @media (max-width: 600px) {
     #navbar {
