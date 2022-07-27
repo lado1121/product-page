@@ -11,7 +11,10 @@ body{
 
 #nav-bar{
     padding-top: 20px;
-    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
 }
 
 #header-img{
@@ -37,7 +40,7 @@ body{
 }
 
 #nav-li{
-    float: right;
+    
     font: 16px lato, sans-serif;
     margin-right: 80px;
 }
@@ -223,5 +226,11 @@ span{
     margin: 5px 0 0;
 }
 
-
+/* SMARTPHONE */
+@media (max-width: 600px) {
+    #navbar {
+      padding: 0rem 1rem;
+      justify-content: center;
+    }
+}
 
